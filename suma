@@ -1,0 +1,24 @@
+// suma 2 :defines the story point for the solution
+//Autor: cristian torrico 
+//fecha: /08/18/2015
+
+#include  "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+
+void main()
+{
+     int A, B, C;
+	 cout <<"ingrese un valor" <<endl;
+	 cin>>A;
+	 cout <<"ingrese otro valor" <<endl;
+	 cin>>B;
+	 C=A+B;
+	 cout<<"el resultado es: " << C;
+	 getch();
+}
+
+	
