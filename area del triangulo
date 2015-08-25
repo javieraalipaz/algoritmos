@@ -1,0 +1,17 @@
+// autor: cristian jesus torrico
+//fecha: 8/25/2015
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio"
+using namespace std;
+
+
+void main(){
+{	float B, H, A;
+	cout "introduccion de area" ;
+	cin>> A;
+	a = (b*h)/2;
+	cout<< "el area del triangulo"
+		getch();
+}
