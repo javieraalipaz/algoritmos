@@ -1,0 +1,45 @@
+// suma y operaciones.cpp : Defines the entry point for the console application.
+// Autor: Fabiana Egüez  Cristian Jesus Torrico
+// Fecha: 01/09/15
+// Objetivo: En base a un menu de opciones, ejecuta una operacion determinada.
+#include "stdafx.h"
+// menu.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{  //se declara las variables
+   int a, b, r, opcion;
+   cout << "Ingrese a: " ;
+   cin >> a;
+   cout << "Ingrese b: " ;
+   cin >> b;
+   //se introduce el menu
+   do {
+     cout << endl;
+     cout << "1.- Suma" << endl;
+     cout << "2.- Resta" << endl;
+     cout << "3.- Producto" << endl;
+     cout << "4.- División" << endl;
+	 cout << "0.- Salir" << endl;
+     //se realizan las opciones de operaciones
+     cout << "Elige una opción: " ;
+     cin >> opcion;
+     switch (opcion) {
+	    case 1: r = a + b; break;
+	    case 2: r = a - b; break;
+	    case 3: r = a * b; break;
+	    case 4: r = a / b; break;
+		case 0: cout << "Salir";break;
+	    default: cout << "Opcion invalida" << endl;
+     }
+     //se muestra el resultado
+     cout << "El resultado es " << r << endl;
+	 } while (opcion != 0);
+     getch();
+}
