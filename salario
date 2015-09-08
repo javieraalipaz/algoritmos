@@ -1,0 +1,19 @@
+// salario.cpp : Defines the entry point for the console application.
+// nombre: cristian torrico
+// fecha:08/09/2015
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void main()
+
+{
+   int a,b,c;
+   cout<< "ingrese las horas de trabajo";
+	   cin>>a;
+   cout<< "ingrese el precio que se le pago";
+	   cin>>b;
+       c=(a*b)-((a*b)*0.13);
+	   cout << "el salario bruto es .."<<c<< endl;
+}
