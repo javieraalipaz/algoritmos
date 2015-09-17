@@ -1,0 +1,26 @@
+// Ciclo Repetitivo.cpp : main project file.
+// Autor: Javiera Alipaz Mercado
+// fecha: 17/09/2015
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main()
+{
+	float b,h,a,p;
+	char resp;
+	do
+	{
+	cout<<endl<< "Ingrese base: ";
+	cin>> b;
+    cout<< "Ingrese la altura: ";
+	  cin>>h;
+	  a=(b*h)/2;
+	  cout<< "El area es: " <<a;
+	  cout<<endl<< "¿Desea continuar?";
+	  cin>>resp;
+	} while (resp== 'y');
+	getch();
+
+}
